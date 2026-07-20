@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ysmayylov_blur_badge">#FFEF5350</color>
+    <color name="ysmayylov_blur_badge_text">#FF000000</color>
+    <color name="ysmayylov_blur_border">#33FFFFFF</color>
+    <color name="ysmayylov_blur_indicator">#33FFFFFF</color>
+    <color name="ysmayylov_blur_selected">#FFFFFFFF</color>
+    <color name="ysmayylov_blur_tint">#40202124</color>
+    <color name="ysmayylov_blur_unselected">#99FFFFFF</color>
+</resources>

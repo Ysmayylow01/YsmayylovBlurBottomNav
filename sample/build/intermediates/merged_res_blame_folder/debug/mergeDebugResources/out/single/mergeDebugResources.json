@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/drawable_ic_favorite.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/drawable_ic_search.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/layout_item_color.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/layout/item_color.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/drawable_ic_profile.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-debug-33:/drawable_ic_home.xml.flat",
+        "source": "com.ysmayylov.blur.sample-main-35:/drawable/ic_home.xml"
+    }
+]

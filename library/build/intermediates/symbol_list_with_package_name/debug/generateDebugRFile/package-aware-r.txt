@@ -1,0 +1,34 @@
+com.ysmayylov.blur.bottomnav
+attr animationDuration
+attr backgroundAlpha
+attr backgroundColor
+attr badgeColor
+attr badgeTextColor
+attr blurEnabled
+attr blurRadius
+attr blurUpdateInterval
+attr borderColor
+attr borderWidth
+attr cornerRadius
+attr gradientOverlayEnabled
+attr iconSize
+attr indicatorColor
+attr itemSpacing
+attr selectedColor
+attr shadowEnabled
+attr tintColor
+attr titleSize
+attr unSelectedColor
+color ysmayylov_blur_badge
+color ysmayylov_blur_badge_text
+color ysmayylov_blur_border
+color ysmayylov_blur_indicator
+color ysmayylov_blur_selected
+color ysmayylov_blur_tint
+color ysmayylov_blur_unselected
+dimen ysmayylov_blur_default_corner
+dimen ysmayylov_blur_default_icon
+dimen ysmayylov_blur_default_radius
+dimen ysmayylov_blur_default_title
+string ysmayylov_blur_lib_name
+styleable YsmayylovBlurBottomNavView animationDuration backgroundAlpha backgroundColor badgeColor badgeTextColor blurEnabled blurRadius blurUpdateInterval borderColor borderWidth cornerRadius gradientOverlayEnabled iconSize indicatorColor itemSpacing selectedColor shadowEnabled tintColor titleSize unSelectedColor

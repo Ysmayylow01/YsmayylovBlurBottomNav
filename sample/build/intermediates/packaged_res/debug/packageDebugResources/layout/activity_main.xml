@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Floating glassmorphism bottom navigation -->
+    <com.ysmayylov.blur.bottomnav.YsmayylovBlurBottomNavView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        app:animationDuration="320"
+        app:blurEnabled="true"
+        app:blurRadius="24dp"
+        app:borderColor="#40FFFFFF"
+        app:borderWidth="1dp"
+        app:cornerRadius="36dp"
+        app:iconSize="24dp"
+        app:indicatorColor="#33FFFFFF"
+        app:selectedColor="#FFFFFFFF"
+        app:shadowEnabled="true"
+        app:tintColor="#40FFFFFF"
+        app:titleSize="11sp"
+        app:unSelectedColor="#B3FFFFFF" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

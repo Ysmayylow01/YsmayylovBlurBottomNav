@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ysmayylov_blur_badge">#FFE53935</color>
+    <color name="ysmayylov_blur_badge_text">#FFFFFFFF</color>
+    <color name="ysmayylov_blur_border">#40FFFFFF</color>
+    <color name="ysmayylov_blur_indicator">#221E88E5</color>
+    <color name="ysmayylov_blur_selected">#FF1E88E5</color>
+    <color name="ysmayylov_blur_tint">#66FFFFFF</color>
+    <color name="ysmayylov_blur_unselected">#99263238</color>
+    <dimen name="ysmayylov_blur_default_corner">32dp</dimen>
+    <dimen name="ysmayylov_blur_default_icon">24dp</dimen>
+    <dimen name="ysmayylov_blur_default_radius">25dp</dimen>
+    <dimen name="ysmayylov_blur_default_title">11sp</dimen>
+    <string name="ysmayylov_blur_lib_name" translatable="false">Ysmayylov Blur Bottom Nav</string>
+    <declare-styleable name="YsmayylovBlurBottomNavView">
+
+        
+        
+        <attr format="boolean" name="blurEnabled"/>
+        
+        <attr format="dimension" name="blurRadius"/>
+        
+        <attr format="integer" name="blurUpdateInterval"/>
+
+        
+        <attr format="dimension" name="cornerRadius"/>
+        
+        <attr format="color" name="backgroundColor"/>
+        <attr format="float" name="backgroundAlpha"/>
+        
+        <attr format="color" name="tintColor"/>
+        <attr format="color" name="borderColor"/>
+        <attr format="dimension" name="borderWidth"/>
+        <attr format="boolean" name="shadowEnabled"/>
+        <attr format="boolean" name="gradientOverlayEnabled"/>
+
+        
+        <attr format="color" name="selectedColor"/>
+        <attr format="color" name="unSelectedColor"/>
+        <attr format="color" name="indicatorColor"/>
+        <attr format="dimension" name="iconSize"/>
+        <attr format="dimension" name="titleSize"/>
+        <attr format="dimension" name="itemSpacing"/>
+        <attr format="integer" name="animationDuration"/>
+
+        
+        <attr format="color" name="badgeColor"/>
+        <attr format="color" name="badgeTextColor"/>
+
+    </declare-styleable>
+</resources>

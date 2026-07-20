@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.ysmayylov.blur.sample-mergeDebugResources-32:/layout/item_color.xml",
+        "source": "com.ysmayylov.blur.sample-main-35:/layout/item_color.xml"
+    },
+    {
+        "merged": "com.ysmayylov.blur.sample-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.ysmayylov.blur.sample-main-35:/layout/activity_main.xml"
+    }
+]
