@@ -44,7 +44,7 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation 'com.github.Ysmayylow01:YsmayylovBlurBottomNav:1.0.0'
+    implementation 'com.github.Ysmayylow01:YsmayylovBlurBottomNav:1.0.1'
 }
 ```
 
