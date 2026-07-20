@@ -1,5 +1,7 @@
 # Ysmayylov Blur Bottom Nav
 
+<img src="screenshots/banner.png" alt="Ysmayylov Blur Bottom Nav in light and dark themes" width="100%" />
+
 A modern, **floating glassmorphism bottom navigation** for classic Android **XML** projects — with a
 **blur engine written completely from scratch**. No BlurView, no RenderScript wrappers, no external
 blur dependency of any kind.
@@ -42,7 +44,7 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation 'com.github.YsmayylovMerdan:YsmayylovBlurBottomNav:1.0.0'
+    implementation 'com.github.Ysmayylow01:YsmayylovBlurBottomNav:1.0.0'
 }
 ```
 
@@ -199,10 +201,13 @@ self-capture loop.
 
 ## 📸 Screenshots
 
-<!-- Add screenshots / GIFs here -->
-| Light | Dark |
-|-------|------|
-| _screenshot_ | _screenshot_ |
+| Light theme | Dark theme |
+|:-----------:|:----------:|
+| <img src="screenshots/light.png" width="320" alt="Blur bottom nav on a light background" /> | <img src="screenshots/dark.png" width="320" alt="Blur bottom nav on a dark background" /> |
+
+The bar blurs the content scrolling underneath it in real time — note how the card colours bleed
+through the glass. Badges (`3` on **Saved**, dot on **Profile**) and the floating selected indicator
+under **Home** are shown too.
 
 ---
 
