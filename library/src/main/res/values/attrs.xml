@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="YsmayylovBlurBottomNavView">
+
+        <!-- ===== Blur ===== -->
+        <!-- Master switch for the live blur backdrop. -->
+        <attr name="blurEnabled" format="boolean" />
+        <!-- Blur strength. Expressed as a dimension (dp) for design consistency. -->
+        <attr name="blurRadius" format="dimension" />
+        <!-- Minimum time between blur recomputations, in ms. 0 = every frame. -->
+        <attr name="blurUpdateInterval" format="integer" />
+
+        <!-- ===== Glassmorphism shape ===== -->
+        <attr name="cornerRadius" format="dimension" />
+        <!-- Solid color painted under the tint (usually transparent for pure glass). -->
+        <attr name="backgroundColor" format="color" />
+        <attr name="backgroundAlpha" format="float" />
+        <!-- Frosted-glass tint painted over the blur. Use an ARGB with low alpha. -->
+        <attr name="tintColor" format="color" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="shadowEnabled" format="boolean" />
+        <attr name="gradientOverlayEnabled" format="boolean" />
+
+        <!-- ===== Items ===== -->
+        <attr name="selectedColor" format="color" />
+        <attr name="unSelectedColor" format="color" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="iconSize" format="dimension" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="animationDuration" format="integer" />
+
+        <!-- ===== Badge ===== -->
+        <attr name="badgeColor" format="color" />
+        <attr name="badgeTextColor" format="color" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,76 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
+}
+
+android {
+    namespace 'com.ysmayylov.blur.bottomnav'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 34
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    // Required so :library produces a single 'release' component for maven-publish / JitPack
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.annotation:annotation:1.8.0'
+    // No third-party blur libraries are used. The blur engine is fully self-contained.
+}
+
+// ---- JitPack / Maven publishing ----------------------------------------------
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.YsmayylovMerdan'
+                artifactId = 'YsmayylovBlurBottomNav'
+                version = '1.0.0'
+
+                pom {
+                    name = 'Ysmayylov Blur Bottom Nav'
+                    description = 'A from-scratch glassmorphism blur bottom navigation for Android XML views.'
+                    url = 'https://github.com/YsmayylovMerdan/YsmayylovBlurBottomNav'
+                    licenses {
+                        license {
+                            name = 'MIT License'
+                            url = 'https://opensource.org/licenses/MIT'
+                        }
+                    }
+                    developers {
+                        developer {
+                            id = 'YsmayylovMerdan'
+                            name = 'Ysmayylov Merdan'
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

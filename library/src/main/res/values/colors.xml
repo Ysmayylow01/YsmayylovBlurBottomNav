@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light-theme glass palette -->
+    <color name="ysmayylov_blur_tint">#66FFFFFF</color>
+    <color name="ysmayylov_blur_border">#40FFFFFF</color>
+    <color name="ysmayylov_blur_selected">#FF1E88E5</color>
+    <color name="ysmayylov_blur_unselected">#99263238</color>
+    <color name="ysmayylov_blur_indicator">#221E88E5</color>
+    <color name="ysmayylov_blur_badge">#FFE53935</color>
+    <color name="ysmayylov_blur_badge_text">#FFFFFFFF</color>
+</resources>
